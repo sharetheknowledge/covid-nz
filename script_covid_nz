@@ -1,0 +1,18 @@
+import pandas as pd
+import numpy as np
+import statsmodels.api as sm
+
+
+data = pd.read_csv('C:/Users/weigeld/Desktop/Covid/growthlog.csv',sep=',')
+data['logInfections']=np.log(data.Infections)
+
+
+
+X=data.Day
+X=sm.add_constant(X)
+y=data.logInfections
+
+
+mod=sm.OLS(y,X)
+res=mod.fit()
+print(res.summary())
