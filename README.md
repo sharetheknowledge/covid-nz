@@ -16,7 +16,7 @@ So to fit equation (1) into equation (2) we are using the log(x) for equation (1
 
 log(x(t)) = log(x0*b0^t) = log(x0) + log(b0)*t
 
-with log(x0)=a
+with log(x0)=a    and   
      log(b0)=b
      
  Taking the number of cases in NZ up until the 26/03/2020  (283 confirmed cases up until now), the result of the script attached gives:                                             
