@@ -20,7 +20,7 @@ with log(x0)=a    and
      log(b0)=b
      
  Taking the number of cases in NZ up until the 26/03/2020  (283 confirmed cases up until now), the result of the script attached gives:                                             
-                                           a=log(x0)=-0.6546
+                                           a=log(x0)=-0.6546     and    
                                            b=log(b0)=0.1977
                                            
                                            So x0=exp(a)=0.519649881
